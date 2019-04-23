@@ -1,0 +1,54 @@
+body {
+  background-image: url("https://i.pinimg.com/originals/45/6f/9e/456f9e13b59ad82f13fad61940c11385.jpg");
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#logo {
+  display: inline-block;
+  position: absolute;
+  padding: 26px 49px;
+  float: left;
+  width: 76px;
+  height: 75px;
+}
+
+a {
+  display: inline-block;
+  padding: 58px 84px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Segoe UI;
+}
+
+.text {
+  margin-top: 25vh;
+}
+
+h1 {
+  font-size: 88px;
+  font-family: Segoe UI;
+  color: #fff;
+  text-align: center;
+}
+
+.brake {
+  margin-top: 79px;
+  width: 436px;
+  height: 5px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-weight: 10;
+  font-size: 35px;
+  margin-top: 79px;
+  font-family: Segoe UI;
+  color: #fff;
+  text-align: center;
+}
