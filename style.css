@@ -9,17 +9,17 @@ body {
 }
 
 #header {
-  display: inline-block;
-  margin: 58px 84px;
-  text-decoration: none;
-  color: #fff;
-  font-family: Segoe UI;
-  font-size: 38px;
+    font-size: 28px;
+    display: inline-block;
+    margin: 21.5px 84px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Segoe UI;
 }
 
 .logo {
     display: inline-block;
-    margin: 26px 49px;
+    margin: 11.5px 49px;
 	position: absolute;
     width: 80px;
     height: 79px;
@@ -73,14 +73,5 @@ h3 {
 
   .card {
     margin: 2rem;
-  }
-
-  #header {
-    font-size: 28px;
-    display: inline-block;
-    margin: 40px 84px;
-    text-decoration: none;
-    color: #fff;
-    font-family: Segoe UI;
   }
 }
