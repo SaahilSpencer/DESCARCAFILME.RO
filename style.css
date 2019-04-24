@@ -18,7 +18,7 @@ body {
 
 a {
   display: inline-block;
-  padding: 58px 84px;
+  margin: 58px 84px;
   text-decoration: none;
   color: #fff;
   font-family: Segoe UI;
