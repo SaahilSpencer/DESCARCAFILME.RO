@@ -57,3 +57,98 @@ h3 {
   color: #fff;
   text-align: center;
 }
+
+body {
+  background-image: url("Background.jpg");
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+#header {
+  display: inline-block;
+  margin: 58px 84px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Segoe UI;
+}
+
+.logo {
+  display: inline-block;
+  position: absolute;
+  margin: 26px 49px;
+  float: left;
+  width: 76px;
+  height: 75px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.text {
+  margin-top: 25vh;
+}
+
+h1 {
+  font-size: 88px;
+  font-family: Segoe UI;
+  color: #fff;
+  text-align: center;
+}
+
+.brake {
+  margin-top: 79px;
+  width: 436px;
+  height: 5px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-weight: 10;
+  font-size: 35px;
+  margin-top: 79px;
+  font-family: Segoe UI;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  section {
+    margin: 0rem 10rem;
+  }
+
+  .card-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 2rem;
+  }
+
+  #header {
+    font-size: 18px;
+    display: inline-block;
+    margin: 58px 84px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Segoe UI;
+  }
+
+  .logo {
+    display: inline-block;
+    position: absolute;
+    margin: 26px 49px;
+    float: left;
+    width: 80px;
+    height: 79px;
+  }
+}
