@@ -1,0 +1,117 @@
+body {
+  background-image: url("Background.jpg");
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: inline-block;
+  margin: 58px 84px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Segoe UI;
+}
+
+#logo {
+  display: inline-block;
+  position: absolute;
+  margin: 26px 49px;
+  float: left;
+  width: 76px;
+  height: 75px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  padding: 0rem 15rem;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 9.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.card .card-img {
+  width: 202px;
+  height: 303px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.details-card {
+  margin: -3rem 0;
+  width: 202px;
+  height: 303px;
+  background-color: rgba(0, 0, 0, 0.69);
+  object-fit: cover;
+  border-radius: 6px;
+  margin-top: -18.94rem;
+  z-index: 999;
+  opacity: 0;
+}
+
+.details-card:hover {
+  opacity: 10;
+}
+
+.details-card h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  font-family: Segoe UI;
+  font-weight: 15;
+  margin: 20px 0;
+}
+
+.details-card h3 {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-family: Yu Gothic;
+  margin: 67px 0;
+}
+
+.details-card h4 {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-family: Yu Gothic;
+  margin: 28px 0;
+}
+
+@media screen and (min-width: 700px) {
+  .card-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 2rem;
+  }
+}
