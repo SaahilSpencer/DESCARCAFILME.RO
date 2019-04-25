@@ -8,10 +8,24 @@ body {
   background-position:center;
 }
 
+.header_background {
+  width: 100%;
+  height: 101px;
+  background: rgba(0, 0, 0, 0.66);
+  z-index: 2;
+  position: fixed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 #header {
     font-size: 28px;
     display: inline-block;
-    margin: 21.5px 84px;
+    margin: 12px 30px;
     text-decoration: none;
     color: #fff;
     font-family: Segoe UI;
@@ -19,8 +33,8 @@ body {
 
 .logo {
     display: inline-block;
-    margin: 11.5px 49px;
-	position: absolute;
+    margin: -4px 49px;
+	  position: absolute;
     width: 80px;
     height: 79px;
 }
@@ -31,7 +45,8 @@ a {
 }
 
 .text {
-  margin-top: 25vh;
+  justify-content: center;
+  padding: 20rem 0;
 }
 
 h1 {
