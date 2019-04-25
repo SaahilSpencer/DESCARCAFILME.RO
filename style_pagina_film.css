@@ -1,0 +1,232 @@
+body {
+  background-image: url("Background.jpg");
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  background-position:center;
+}
+
+.header_background {
+  width: 100%;
+  height: 101px;
+  background: rgba(0, 0, 0, 0.66);
+  position: fixed;
+  z-index: 2;
+  margin: -11.5rem auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+    font-size: 28px;
+    display: inline-block;
+    margin: 0px 30px;
+    padding: 32px 17px;
+    text-decoration: none;
+    color: #fff;
+    font-family: Segoe UI;
+}
+
+#header:hover {
+  background-color: rgba(44, 32, 69, 0.52);
+}
+
+.logo {
+    display: inline-block;
+    margin: 12px 49px;
+	  position: absolute;
+    width: 80px;
+    height: 79px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section {
+  margin: 0rem 25rem;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 100px 0;
+}
+
+.card {
+  width: 9.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.card .card-img {
+  width: 202px;
+  height: 303px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.details-card {
+  margin: -3rem 0;
+  width: 202px;
+  height: 303px;
+  background-color: rgba(0, 0, 0, 0.69);
+  object-fit: cover;
+  border-radius: 6px;
+  margin-top: -18.94rem;
+  z-index: 1;
+  opacity: 0;
+}
+
+.details-card:hover {
+  opacity: 10;
+}
+
+.details-card h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  font-family: Segoe UI;
+  font-weight: 15;
+  margin: 20px 0;
+}
+
+.details-card h3 {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-family: Yu Gothic;
+  margin: 67px 0;
+}
+
+.details-card h4 {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  font-family: Yu Gothic;
+  margin: 28px 0;
+}
+
+@media screen and (min-width: 700px) {
+  section {
+    margin: 0rem 10rem;
+  }
+
+  .card-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card {
+    margin: 2rem;
+  }
+}
+
+.the_movie {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 11.5rem 0;
+}
+
+#name {
+  color: #fff;
+  font-size: 60px;
+  font-family: Tahoma;
+  font-weight: 400;
+  margin: -3rem 0;
+  position: absolute;
+  z-index: 4
+}
+
+iframe {
+  width: 640px;
+  height: 360px;
+  position: absolute;
+}
+
+#descarca_film {
+  color: #fff;
+  margin: 426px 0;
+  padding: 6px 48px;
+  background-color: rgba(44, 32, 69, 0.72);
+  border-radius: 10px;
+  font-family: Yu Gothic;
+  position: absolute;
+}
+
+#descarca_film:hover {
+  background-color: rgba(44, 32, 69, 0.82);
+}
+
+.detalii_film {
+  width: 1093px;
+  height: 101px;
+  background-color: rgba(0, 0, 0, 0.86);
+  margin: 506px 0;
+  position: absolute;
+}
+
+#detalii_text {
+  margin: 10px;
+  font-size: 60px;
+  color: #fff;
+  font-family: Segoe UI;
+  font-weight: normal;
+}
+
+.detalii_film_about_generale {
+  width: 1093px;
+  height: 519px;
+  background-color: rgba(15, 15, 15, 0.96);
+  margin: 607px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+#detalii_generale {
+  font-size: 30px;
+  color: #fff;
+  margin: 37px 32px;
+  font-family: Segoe UI;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+
+}
+
+span {
+  font-size: 18px;
+}
+
+.detalii_film_despre {
+  z-index: 1;
+  margin: 746px 0px 0;
+  position: absolute;
+}
+
+#despre_film {
+  color: #fff;
+  font-size: 20px;
+  text-align: left;
+  font-family: Segoe UI;
+  font-weight: normal;
+}
+
+#alt {
+  font-size: 18px;
+}
