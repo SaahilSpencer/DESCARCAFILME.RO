@@ -25,15 +25,20 @@ body {
 #header {
     font-size: 28px;
     display: inline-block;
-    margin: 12px 30px;
+    margin: -18.5px 30px;
+    padding: 32px 17px;
     text-decoration: none;
     color: #fff;
     font-family: Segoe UI;
 }
 
+#header:hover {
+  background-color: rgba(44, 32, 69, 0.52);
+}
+
 .logo {
     display: inline-block;
-    margin: -4px 49px;
+    margin: -3px 49px;
 	  position: absolute;
     width: 80px;
     height: 79px;
