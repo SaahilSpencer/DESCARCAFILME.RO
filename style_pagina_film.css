@@ -151,7 +151,7 @@ section {
   font-weight: 400;
   margin: -3rem 0;
   position: absolute;
-  z-index: 4
+  z-index: 1;
 }
 
 iframe {
