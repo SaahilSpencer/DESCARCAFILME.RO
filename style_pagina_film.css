@@ -134,6 +134,7 @@ section {
   .card {
     margin: 2rem;
   }
+
 }
 
 .the_movie {
@@ -193,7 +194,7 @@ iframe {
   width: 1093px;
   height: 519px;
   background-color: rgba(15, 15, 15, 0.96);
-  margin: 607px 0 0;
+  margin: 607px -100 0;
   display: flex;
   justify-content: center;
 }
