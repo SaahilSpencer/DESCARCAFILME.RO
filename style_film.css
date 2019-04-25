@@ -25,15 +25,20 @@ body {
 #header {
     font-size: 28px;
     display: inline-block;
-    margin: 30px 30px;
+    margin: 0px 30px;
+    padding: 32px 17px;
     text-decoration: none;
     color: #fff;
     font-family: Segoe UI;
 }
 
+#header:hover {
+  background-color: rgba(44, 32, 69, 0.52);
+}
+
 .logo {
     display: inline-block;
-    margin: 10px 49px;
+    margin: 12px 49px;
 	  position: absolute;
     width: 80px;
     height: 79px;
@@ -110,7 +115,7 @@ section {
   text-align: center;
   color: #fff;
   font-family: Yu Gothic;
-  margin: 28px 0;
+  margin: 23px 0;
 }
 
 @media screen and (min-width: 700px) {
