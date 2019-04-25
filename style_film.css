@@ -8,6 +8,14 @@ body {
   background-position:center;
 }
 
+.header_background {
+  width: 100%;
+  height: 101px;
+  background: rgba(0, 0, 0, 0.66);
+  position: fixed;
+  z-index: 2;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +25,7 @@ body {
 #header {
     font-size: 28px;
     display: inline-block;
-    margin: 40px 84px;
+    margin: 30px 30px;
     text-decoration: none;
     color: #fff;
     font-family: Segoe UI;
@@ -25,8 +33,8 @@ body {
 
 .logo {
     display: inline-block;
-    margin: 26px 49px;
-	position: absolute;
+    margin: 10px 49px;
+	  position: absolute;
     width: 80px;
     height: 79px;
 }
@@ -45,6 +53,7 @@ section {
   align-items: center;
   align-content: center;
   flex-direction: column;
+  padding: 100px 0;
 }
 
 .card {
@@ -71,7 +80,7 @@ section {
   object-fit: cover;
   border-radius: 6px;
   margin-top: -18.94rem;
-  z-index: 999;
+  z-index: 1;
   opacity: 0;
 }
 
@@ -118,5 +127,5 @@ section {
 
   .card {
     margin: 2rem;
-  }  
+  }
 }
