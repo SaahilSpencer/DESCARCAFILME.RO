@@ -1,0 +1,69 @@
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport=" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pagina_film.css">
+	<link rel="icon" href="logo.png">
+    <title>DESCARCAFILME | Filme</title>
+    <header>
+      <div class="header_background">
+        <a href="https://trusting-liskov-3e2fd8.netlify.com/"><img class="logo" src="logo.png" alt=""></a>
+        <center>
+          <a id="header" href="index.html">HOME</a>
+          <a id="header" href="filme.html">FILME</a>
+          <a id="header" href="">SERIALE</a>
+        </center>
+      </div>
+    </header>
+  </head>
+  <body>
+    <div class="the_movie">
+      <h1 id="name">
+        Support the Girls
+      </h1>
+      <iframe width="1903" height="769" src="https://www.youtube.com/embed/OI1CWYxbbkI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      <a id="descarca_film" onclick="openForm()">DESCARCA</a>
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1 id="descarca_film_popup">DESCARCA</h1>
+          <a id="butoane_descarcare" href="https://www.opensubtitles.com/download/A5FFC603B74B2BAF68EBC4698678F1E241DCDE7C2581FFDE469C6F1CA075E8E8E008DD0722869B35DDFF791B4C395BE89A09D1C4C2E719C5DBB19A700720531842DF8F6B66E7A5F04BD8624447A1C1131891C1D5D09A62E33C500A7E09376D25DF41B3BAEA96702458F36DFF90270B20FE7B9543046B53BBCB01B865CE99584CEDC36676E20671132B9B2697F30E24932D92031D8091822C18CBF7AC3500ED345445E9C99E9EC951D82C95539A86F54D250F08FCF19414F9BA4D4A5F273ADB05A8DCA0D57A5D327C62237B6C53B69B401E766E335197C7A0C29666DFC3F2DFB2B1A6116A032B57136F9C8C905E52EFB59665CEB1F53958F584558033C5670FA9/subfile/Support.the.Girls.2018.1080p.WEB-DL.DD5.1.H264-FGT-rum.srt">Subtitrare</a>
+          <a id="butoane_descarcare" href="https://yts.am/torrent/download/E7F765CE147EE4F6B16EC9C0D70DB51D3EAA2F44">Film</a>
+          <a id="butoane_descarcare" href="https://www.videolan.org/vlc/index.html">VLC</a>
+          <a id="butoane_descarcare" href="https://www.utorrent.com/">uTorrent</a>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+      <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
+      <div class="detalii_film">
+        <h1 id="detalii_text">DETALII</h1>
+      </div>
+      <div class="detalii_film_about_generale">
+        <h1 id="detalii_generale">Calitate  <span>1080p</span></h1>
+        <h1 id="detalii_generale">Subtitrare  <span>Romana</span></h1>
+        <h1 id="detalii_generale">Durata  <span>1h 33min</span></h1>
+        <h1 id="detalii_generale">Data  <span>24 August 2018</span></h1>
+        <h1 id="detalii_generale">Nota IMDB  <span>6.5</span></h1>
+
+      </div>
+      <div class="detalii_film_despre">
+        <h1 id=despre_film>Despre Film :<br><span id=alt>- The general manager at a highway-side ''sports bar with curves" has her incurable optimism
+          and faith, in her girls, her<br>customers, and herself, tested over the course of a long, strange day.<span></h1><br>
+        <h1 id=despre_film>Director :<br><span id=alt>- Andrew Bujalski<span></h1><br>
+        <h1 id=despre_film>Scriitori :<br><span id=alt>- Andrew Bujalski<span></h1>
+      </div>
+
+    </div>
+
+  </body>
+</html>

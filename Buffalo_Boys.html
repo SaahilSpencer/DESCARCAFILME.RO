@@ -1,0 +1,68 @@
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport=" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pagina_film.css">
+	<link rel="icon" href="logo.png">
+    <title>DESCARCAFILME | Filme</title>
+    <header>
+      <div class="header_background">
+        <a href="https://trusting-liskov-3e2fd8.netlify.com/"><img class="logo" src="logo.png" alt=""></a>
+        <center>
+          <a id="header" href="index.html">HOME</a>
+          <a id="header" href="filme.html">FILME</a>
+          <a id="header" href="">SERIALE</a>
+        </center>
+      </div>
+    </header>
+  </head>
+  <body>
+    <div class="the_movie">
+      <h1 id="name">
+        Buffalo Boys
+      </h1>
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/XFncLkrouHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      <a id="descarca_film" onclick="openForm()">DESCARCA</a>
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1 id="descarca_film_popup">DESCARCA</h1>
+          <a id="butoane_descarcare" href="https://www.opensubtitles.com/download/EA5B92A3D491AB3800C9EA532ED0158AC5A961C7212B0A23BB8E275A3B5E4C4691A6847C8E5AED76E022357509BE45FF2D9C41B993EF51C2D2B1271DA6B703D7B02E25F51461E85851B035EA4960AB2F195B1CB71BF5EC13B315A1BFFC7083987C9C3B9470025FA14D99200594484F8751348FB78D2E9E21BE94EAE2FDEF6AA6B95A79745B1D6A8E93366BD44010C5CEAB15BE1C0530F16E72FBE1102A57E3877F8C154B4FF2F4FA3C6E1AD053BA2BD2AD828C8256011E1354DFB3CC66F5465A6176F65889FEF2ACF0F82E44D5F1756498585CE907934874A55A2A68F46A375C5AA9046E417AFF67F4A92CB56A5192FD/subfile/%20Buffalo%20Boys%202018%20WEB-DL%20720p%20x264%20Ganool.srt">Subtitrare</a>
+          <a id="butoane_descarcare" href="https://yts.am/torrent/download/4D86BDA7971B54C456B67FEDEF0C148384B2D3A1">Film</a>
+          <a id="butoane_descarcare" href="https://www.videolan.org/vlc/index.html">VLC</a>
+          <a id="butoane_descarcare" href="https://www.utorrent.com/">uTorrent</a>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+      <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
+      <div class="detalii_film">
+        <h1 id="detalii_text">DETALII</h1>
+      </div>
+      <div class="detalii_film_about_generale">
+        <h1 id="detalii_generale">Calitate  <span>1080p</span></h1>
+        <h1 id="detalii_generale">Subtitrare  <span>Romana</span></h1>
+        <h1 id="detalii_generale">Durata  <span>1h 42min</span></h1>
+        <h1 id="detalii_generale">Data  <span>19 July 2018</span></h1>
+        <h1 id="detalii_generale">Nota IMDB  <span>6.1</span></h1>
+
+      </div>
+      <div class="detalii_film_despre">
+        <h1 id=despre_film>Despre Film :<br><span id=alt>- Two brothers named Jamar and Suwo came back to the land of Java to avenge their father, who was a Sultan, after years<br>of exile in America.<span></h1><br>
+        <h1 id=despre_film>Director :<br><span id=alt>- Mike Wiluan<span></h1><br>
+        <h1 id=despre_film>Scriitori :<br><span id=alt>- Raymond Lee<br>- Mike Wiluan<span></h1>
+      </div>
+
+    </div>
+
+  </body>
+</html>

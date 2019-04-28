@@ -1,0 +1,68 @@
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport=" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pagina_film.css">
+	<link rel="icon" href="logo.png">
+    <title>DESCARCAFILME | Filme</title>
+    <header>
+      <div class="header_background">
+        <a href="https://trusting-liskov-3e2fd8.netlify.com/"><img class="logo" src="logo.png" alt=""></a>
+        <center>
+          <a id="header" href="index.html">HOME</a>
+          <a id="header" href="filme.html">FILME</a>
+          <a id="header" href="">SERIALE</a>
+        </center>
+      </div>
+    </header>
+  </head>
+  <body>
+    <div class="the_movie">
+      <h1 id="name">
+        The Professor and the Madman
+      </h1>
+      <iframe width="1280" height="720" src="https://www.youtube.com/embed/g6Pn-6MOXPs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+      <a id="descarca_film" onclick="openForm()">DESCARCA</a>
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1 id="descarca_film_popup">DESCARCA</h1>
+          <a id="butoane_descarcare" href="https://www.opensubtitles.com/download/EA5B92A3D491AB3800C9EA532ED0158AAD8DFB50BB63FB0CD2691491DADB4C241703DA36505402F43BC12DAD0430497DA20E50DAC2EDF48FF677D32EADC53C84AC55EBAACF0AFE4C47BD414EFEF956F1C832074B38DDF2B123B7DE2D8BE312A3B3B8904008E35179BC1D17E205B86962C7E472890D7F3ED0376FF991A2C82E04FCFC7C6FCCC7049300F8FC6A05B574F9BE0E1062FF17E7932EEA5399D85F0F727DF2A578D3DD0C7541EC671F4C19149DECC98339E31E13466236E1B4056A56368206D548AD38C42471543ED42DD55319AF04CC4DE591B9239CC3CCB104F5B15FAADBB57E4A713443FFC5F538F405D71DF6329758F6A68FB0/subfile/The.Professor.and.the.Madman.2019.WEB-DL.x264-FGT.srt">Subtitrare</a>
+          <a id="butoane_descarcare" href="https://torrentz2019.site/torfile?id=9be02cc054f33cf4872687cebc721ceca6d24fd0">Film</a>
+          <a id="butoane_descarcare" href="https://www.videolan.org/vlc/index.html">VLC</a>
+          <a id="butoane_descarcare" href="https://www.utorrent.com/">uTorrent</a>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+      <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
+      <div class="detalii_film">
+        <h1 id="detalii_text">DETALII</h1>
+      </div>
+      <div class="detalii_film_about_generale">
+        <h1 id="detalii_generale">Calitate  <span>1080p</span></h1>
+        <h1 id="detalii_generale">Subtitrare  <span>Romana</span></h1>
+        <h1 id="detalii_generale">Durata  <span>2h 4min</span></h1>
+        <h1 id="detalii_generale">Data  <span>10 May 2019</span></h1>
+        <h1 id="detalii_generale">Nota IMDB  <span>7.4</span></h1>
+
+      </div>
+      <div class="detalii_film_despre">
+        <h1 id=despre_film>Despre Film :<br><span id=alt>- Professor James Murray begins work compiling words for the first edition of the Oxford English Dictionary in the mid 19th<br>century, and receives over 10,000 entries from a patient at Broadmoor Criminal Lunatic Asylum, Dr. William Minor.<span></h1><br>
+        <h1 id=despre_film>Director :<br><span id=alt>- Farhad Safinia<span></h1><br>
+        <h1 id=despre_film>Scriitori :<br><span id=alt>- John Boorman<br>- Todd Komarnicki<span></h1>
+      </div>
+
+    </div>
+
+  </body>
+</html>

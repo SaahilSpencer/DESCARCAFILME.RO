@@ -1,0 +1,66 @@
+<html lang="ro">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport=" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_pagina_film.css">
+	<link rel="icon" href="logo.png">
+    <title>DESCARCAFILME | Filme</title>
+    <header>
+      <div class="header_background">
+        <a href="https://trusting-liskov-3e2fd8.netlify.com/"><img class="logo" src="logo.png" alt=""></a>
+        <center>
+          <a id="header" href="index.html">HOME</a>
+          <a id="header" href="filme.html">FILME</a>
+          <a id="header" href="">SERIALE</a>
+        </center>
+      </div>
+    </header>
+  </head>
+  <body>
+    <div class="the_movie">
+      <h1 id="name">
+        Matriarch
+      </h1>
+      <iframe width="1903" height="769" src="https://www.youtube.com/embed/HPM9sOshLg8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <a id="descarca_film" onclick="openForm()">DESCARCA</a>
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1 id="descarca_film_popup">DESCARCA</h1>
+          <a id="butoane_descarcare" href="https://torrentz2019.site/torfile?id=00fc0e3ab8a6ddc82190d5b7707eb49db7b73c9a">Film</a>
+          <a id="butoane_descarcare" href="https://www.videolan.org/vlc/index.html">VLC</a>
+          <a id="butoane_descarcare" href="https://www.utorrent.com/">uTorrent</a>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+      <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
+      <div class="detalii_film">
+        <h1 id="detalii_text">DETALII</h1>
+      </div>
+      <div class="detalii_film_about_generale">
+        <h1 id="detalii_generale">Calitate  <span>1080p</span></h1>
+        <h1 id="detalii_generale">Subtitrare  <span>Fara</span></h1>
+        <h1 id="detalii_generale">Durata  <span>1h 31min</span></h1>
+        <h1 id="detalii_generale">Data  <span>9 April 2019</span></h1>
+        <h1 id="detalii_generale">Nota IMDB  <span>6.1</span></h1>
+
+      </div>
+      <div class="detalii_film_despre">
+        <h1 id=despre_film>Despre Film :<br><span id=alt>- An expecting Mother (Rachel) and husband (Matt) crash their car in the countryside and are offered shelter by a farmer and<br>his wife. Rachel soon realizes the farmer's children are in fact stolen. Just as they try to escape from the farm Rachel<br>goes into labor.....<span></h1><br>
+        <h1 id=despre_film>Director :<br><span id=alt>- Scott Vickers<span></h1><br>
+        <h1 id=despre_film>Scriitori :<br><span id=alt>- Scott Vickers<span></h1>
+      </div>
+
+    </div>
+
+  </body>
+</html>
