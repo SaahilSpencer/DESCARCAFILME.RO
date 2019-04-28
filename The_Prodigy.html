@@ -23,7 +23,28 @@
       </h1>
       <iframe width="1280" height="720" src="https://www.youtube.com/embed/BC4cyYRxjFk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
-      <a id=descarca_film href="#">DESCARCA</a>
+      <a id="descarca_film" onclick="openForm()">DESCARCA</a>
+
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1 id="descarca_film_popup">DESCARCA</h1>
+          <a id="butoane_descarcare" href="https://subs.ro/subtitrare/descarca/the-prodigy-2019/85032">Subtitrare</a>
+          <a id="butoane_descarcare" href="https://torrentz2019.site/torfile?id=4047a8e787cb3bd28d02714a16c2941be787349d">Film</a>
+          <a id="butoane_descarcare" href="https://www.videolan.org/vlc/index.html">VLC</a>
+          <a id="butoane_descarcare" href="https://www.utorrent.com/">uTorrent</a>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+
+      <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
       <div class="detalii_film">
         <h1 id="detalii_text">DETALII</h1>
       </div>
