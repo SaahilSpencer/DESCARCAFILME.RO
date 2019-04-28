@@ -87,6 +87,7 @@ section {
   margin-top: -18.94rem;
   z-index: 1;
   opacity: 0;
+  transition: 0.3s;
 }
 
 .details-card:hover {
