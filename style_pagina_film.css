@@ -134,7 +134,6 @@ section {
   .card {
     margin: 2rem;
   }
-
 }
 
 .the_movie {
@@ -168,6 +167,7 @@ iframe {
   border-radius: 10px;
   font-family: Yu Gothic;
   position: absolute;
+  cursor: pointer;
 }
 
 #descarca_film:hover {
@@ -230,4 +230,49 @@ span {
 
 #alt {
   font-size: 18px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.form-popup {
+  display: none;
+  bottom: 16rem;
+  z-index: 9;
+  position: absolute;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 20px 50px;
+  background-color: rgba(255, 255, 255, 0.80);
+  border-radius: 10px;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;;
+  margin: 10px 0;
+}
+
+#descarca_film_popup {
+  color: #3A3A3A;
+}
+
+#butoane_descarcare {
+  color: #fff;
+  background-color: rgba(44, 32, 69, 1);
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
 }
